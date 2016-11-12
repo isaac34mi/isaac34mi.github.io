@@ -11,9 +11,23 @@
  </head>
 <body>
 <ul>
-  <img src="me.JPG" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="250" height="250">
+  <img src="me.JPG" class="img-responsive img-circle margin" style="display:inline" alt="profile pic" width="250" height="250">
   <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#work">Works</a></li>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Posts
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">Python</li>
+      <li><a href="#">Topic 1</a></li>
+      <li><a href="#">Topic 2</a></li>
+      <li><a href="#">Topic 3</a></li>
+      <li class="divider"></li>
+      <li class="dropdown-header">Data Science</li>
+      <li><a href="#">Topic 1</a></li>
+      <li><a href="#">Topic 2</a></li>
+      <li><a href="#">Topic 3</a></li>
+    </ul>
+  </div>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
